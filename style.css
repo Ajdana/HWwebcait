@@ -1,0 +1,197 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    align-items: center;
+
+}
+
+.one {
+    word-spacing: 20px;
+    font-size: 30px;
+}
+
+.second a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.one a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.main {
+    height: 50px;
+    padding-top: 20px;
+}
+
+.main a {
+    text-decoration: none;
+    padding-left: 50px;
+    font-size: 20px;
+    color: black;
+}
+
+.photo {
+    display: grid;
+    place-content: center;
+    padding: 10px;
+}
+
+.photo img {
+    width: 1450px;
+}
+
+.text {
+    text-align: left;
+    padding-top: 80px;
+    padding-left: 400px;
+    padding-right: 400px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.text p {
+    font-size: larger;
+}
+
+.girls {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.first {
+    padding: 120px;
+    width: 700px;
+}
+
+.two {
+    width: 820px;
+    padding-top: 170px;
+}
+
+.big {
+    padding-top: 100px;
+}
+
+iframe {
+    padding-top: 60px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.author {
+    padding-left: 400px;
+}
+
+.mens {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 120px;
+}
+
+.bigphoto {
+    padding: 120px;
+}
+
+.photos3 {
+    padding: 120px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-top: 120px;
+}
+
+.container {
+    display: grid;
+    margin-top: 120px;
+    margin-left: 120px;
+    grid-template-columns: 1fr 1fr;
+    background-color: cornflowerblue;
+    width: 1650px;
+    height: 700px;
+}
+
+.pervoe img {
+    width: 825px;
+    height: 700px;
+}
+
+.vtoroe {
+    padding: 150px;
+    display: grid;
+    place-content: center;
+    color: white;
+}
+
+.vtoroe a {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 500px;
+    max-width: 1000px;
+    width: 100%;
+    padding: 120px;
+    font-size: 25px;
+}
+.footer-section h4 {
+    font-weight: bold;
+}
+.footer-section a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+.newsletter input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+.newsletter button {
+    background-color: blue;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.bottom-links {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.bottom-links a {
+    color: black;
+    text-decoration: none;
+    margin: 0 5px;
+}
